@@ -1,0 +1,11 @@
+Passenger_id,Pclass,Name,Sex,Age,SibSp,Parch,Survived
+892,3,kelly,male,34.5,0,0,0
+893,3,wilkes,female,47,1,0,1
+894,2,myles,male,62,0,0,0
+895,3,wire,female,27,0,0,1
+896,3,hirvonen,male,22,1,1,0
+897,3,svenston,female,14,0,0,1
+898,3,connaly,male,30,0,0,0
+899,2,cadwell,female,26,1,1,0
+900,3,abrahim,male,18,0,0,1
+901,3,davies,male,21,2,0,0
