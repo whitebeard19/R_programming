@@ -50,4 +50,4 @@ auc <- auc(roc_obj)
 print(paste("AUC:", round(auc, 4)))
 
 # Plot ROC Curve
-plot(roc_obj, main="ROC Curve for Logistic Regression", col="blue")
+plot(roc_obj, main="ROC Curve for Logistic Regression", col="red")

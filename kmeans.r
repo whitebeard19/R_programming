@@ -14,6 +14,7 @@ mall_data <- data.frame(
 
 # Select relevant features for clustering
 mall_data_selected <- mall_data[, c("Annual_Income", "Spending_Score")]
+# print(mall_data_selected)
 
 # Run K-means clustering with 2 clusters
 set.seed(123)

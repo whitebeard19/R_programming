@@ -65,9 +65,9 @@ install.packages("maps")
 library(maps)
 
 cities <- data.frame(
-  City = c("Chennai", "Bengaluru"),
-  Latitude = c(13.0827, 12.9716),
-  Longitude = c(80.2707, 77.5946)
+  City = c("Chennai"),
+  Latitude = c(13.0827),
+  Longitude = c(80.2707)
 )
 
 # Basic World Map
