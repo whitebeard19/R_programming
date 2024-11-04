@@ -12,13 +12,13 @@ data <- read.csv("C:\\Projects\\R_Programs\\titanic.csv")
 # Check the structure of the data
 str(data)
 
-# Data Preprocessing
+# Convert 'Survived', 'Pclass', and 'Sex' to factors
 data$Survived <- as.factor(data$Survived)
-data$Age[is.na(data$Age)] <- median(data$Age, na.rm = TRUE)
-data <- data %>% select(Survived, Pclass, Sex, Age, SibSp, Parch)
-
 data$Pclass <- as.factor(data$Pclass)
 data$Sex <- as.factor(data$Sex)
+
+# Select only the relevant columns
+data <- data[, c("Survived", "Pclass", "Sex", "Age", "SibSp", "Parch")]
 
 # Drop rows with any remaining missing values
 data <- na.omit(data)
